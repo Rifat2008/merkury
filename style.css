@@ -129,14 +129,15 @@ header {
   left: 0;
   width: 360px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 15px;
   transform: translateY(-100%);
-  background-color: #fff;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   z-index: 3;
   transition: all 1s;
+  background-color: #1f315c;
+  opacity: 0.99;
 }
 
 .menu-mobile__list.menu-mobile__list--open {
@@ -144,7 +145,7 @@ header {
 }
 
 .menu-mobile__item {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .menu-mobile__link {
